@@ -26,6 +26,7 @@ deploy:
   file:
   - "${TRAVIS_BUILD_DIR}/mqtt-gateway.js"
   - "${TRAVIS_BUILD_DIR}/mqtt-gateway-service"
+  - "${TRAVIS_BUILD_DIR}/package.json"
   skip_cleanup: true
   on:
     tags: true
