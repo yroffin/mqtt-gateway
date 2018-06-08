@@ -1,0 +1,12 @@
+{
+  "name": "mgtt-gateway",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "node mqtt-gateway.js"
+  },
+  "dependencies": {
+    "mqtt": "~2.18.0",
+    "args": "~4.0.0"
+  }
+}
