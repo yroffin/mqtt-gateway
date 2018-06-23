@@ -22,7 +22,7 @@ USER=mqtt-gateway
 GROUP=mqtt-gateway
 MQTT_GATEWAY=`which node`
 MQTT_GATEWAY_ARGS="
-mqtt-gateway
+mqtt-gateway.js
  --rport     `grep mqtt-gateway.rport /etc/mqtt-gateway/mqtt-gateway.conf     | cut -f2 -d=`
  --rhost     `grep mqtt-gateway.rhost /etc/mqtt-gateway/mqtt-gateway.conf     | cut -f2 -d=`
  --rusername `grep mqtt-gateway.rusername /etc/mqtt-gateway/mqtt-gateway.conf | cut -f2 -d=`
